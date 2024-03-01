@@ -10,7 +10,7 @@ import { Team } from './section/Team';
 // Components
 import { Footer } from './components/Footer';
 import { Navbar } from './components/nav/Navbar';
-//test
+
 function App() {
     return (
         <>
