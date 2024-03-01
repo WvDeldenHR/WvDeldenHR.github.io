@@ -8,12 +8,12 @@ const imageUrls = [
     ImageConcept01,
 ]
 
-export function Concept01() {
+export function Concept03() {
     return (
-        <div className="mt-8" id="Concept-1">
+        <div className="mt-36" id="Concept-3">
             <div className="">
                 <span className="text-sm md:text-xs uppercase font-light text-white opacity-60">
-                    Concept 1
+                    Concept 3
                 </span>
                 <span className="mx-3 md:mx-2 text-sm md:text-xs uppercase font-light text-white opacity-60">|</span>
                 <span className="text-sm md:text-xs uppercase font-light text-white opacity-60">

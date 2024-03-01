@@ -16,7 +16,7 @@ const imageUrls = [
 
 export function Team() {
     return (
-        <div className="relative">
+        <div className="relative" id="Ons-Team">
             <div className="relative flex items-center z-10">
                 <span className="block mr-2 rounded-full w-2 h-5 bg-primary"></span>
                 <h2 className="text-2xl text-white font-semibold">Ons Team</h2>
