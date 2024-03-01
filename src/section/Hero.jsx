@@ -4,16 +4,16 @@ import { ImageHero } from "../components/images/ImageHero";
 // Images
 import { ReactComponent as IconArrowDown } from "./../assets/icon/icon_arrow_down_01.svg";
 
-import ImageHero01 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero02 from "./../assets/images/image_stock_phote_01.jpg";
+import ImageHero01 from "./../assets/images/npo-bg4.jpg";
+import ImageHero02 from "./../assets/images/npo-bg1.jpeg";
 import ImageHero03 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero04 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero05 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero06 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero07 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero08 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero09 from "./../assets/images/image_stock_phote_01.jpg";
-import ImageHero10 from "./../assets/images/image_stock_phote_01.jpg";
+import ImageHero04 from "./../assets/images/npo-bg9.jpeg";
+import ImageHero05 from "./../assets/images/npo-bg8.jpeg";
+import ImageHero06 from "./../assets/images/npo-bg5.jpeg";
+import ImageHero07 from "./../assets/images/npo-bg3.jpg";
+import ImageHero08 from "./../assets/images/npo-bg2.jpeg";
+import ImageHero09 from "./../assets/images/npo-bg7.jpeg";
+import ImageHero10 from "./../assets/images/npo-bg6.jpeg";
 
 const imageUrls = [
     ImageHero01,
