@@ -3,7 +3,7 @@ import { ReactComponent as IconDownload } from "./../assets/icon/icon_download_0
 
 export function Documents() {
     return (
-        <div className="">
+        <div className="" id="Documenten">
             <div className="flex items-center">
                 <span className="block mr-2 rounded-full w-2 h-5 bg-primary"></span>
                 <h2 className="text-2xl font-semibold text-white">Documents</h2>

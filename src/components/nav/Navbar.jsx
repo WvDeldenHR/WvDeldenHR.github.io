@@ -28,27 +28,27 @@ export function Navbar() {
                 <div className={`${isMenuOpen ? '' : 'h-0'}`}>
                     <ul className="px-6 md:px-12">
                         <li className="my-3">
-                            <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold">Ons Team</a>
+                            <a href="#Ons-Team" className="text-lg text-white font-['Quicksand'] font-semibold">Ons Team</a>
                         </li>
                         <li className="my-3">
-                            <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concepten</a>
+                            <a href="#Concepten" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concepten</a>
                         </li>
                         <ul className="px-6">
                             <li className="my-3">
-                                <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 1</a>
+                                <a href="#Concept-1" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 1</a>
                             </li>
                             <li className="my-3">
-                                <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 2</a>
+                                <a href="#Concept-2" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 2</a>
                             </li>
                             <li className="my-3">
-                                <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 3</a>
+                                <a href="#Concept-3" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 3</a>
                             </li>
                         </ul>
                         <li className="my-3">
-                            <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Eindconcepten</a>
+                            <a href="#Eindconcept" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Eindconcept</a>
                         </li>
                         <li className="my-3">
-                            <a href="/" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Documenten</a>
+                            <a href="#Documenten" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Documenten</a>
                         </li>
                     </ul>
                 </div>
