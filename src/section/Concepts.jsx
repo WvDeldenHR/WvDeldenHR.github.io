@@ -2,6 +2,7 @@
 import { Concept01 } from "./Concept01";
 import { Concept02 } from "./Concept02";
 import { Concept03 } from "./Concept03";
+import { Concept04 } from "./Concept04";
 
 
 export function Concepts() {
@@ -15,6 +16,7 @@ export function Concepts() {
             <Concept01 />
             <Concept02 />
             <Concept03 />
+            <Concept04 />
         </div>
     );
 }

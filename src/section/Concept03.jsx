@@ -21,7 +21,7 @@ export function Concept03() {
                 </span>
             </div>
             <div className="my-4 md:my-0">
-                <h3 className="text-2xl md:text-3xl font-semibold text-white">Lorum Ipsum</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold text-white">Podcast</h3>
             </div>
             
             <div className="flex flex-col md:flex-row-reverse md:my-8">

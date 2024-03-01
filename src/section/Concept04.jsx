@@ -2,18 +2,20 @@
 import { ImageConcept } from "../components/images/ImageConcept";
 
 // Images
-import ImageConcept01 from "./../assets/images/image_stock_phote_01.jpg"
+import ImageConcept01 from "./../assets/images/concept04/image_concept_04_home.png"
+import ImageConcept02 from "./../assets/images/concept04/image_concept_04_detail.png"
 
 const imageUrls = [
     ImageConcept01,
+    ImageConcept02,
 ]
 
-export function Concept02() {
+export function Concept04() {
     return (
-        <div className="mt-36" id="Concept-2">
+        <div className="mt-36" id="Concept-4">
             <div className="">
                 <span className="text-sm md:text-xs uppercase font-light text-white opacity-60">
-                    Concept 2
+                    Concept 4
                 </span>
                 <span className="mx-3 md:mx-2 text-sm md:text-xs uppercase font-light text-white opacity-60">|</span>
                 <span className="text-sm md:text-xs uppercase font-light text-white opacity-60">
@@ -21,7 +23,7 @@ export function Concept02() {
                 </span>
             </div>
             <div className="my-4 md:my-0">
-                <h3 className="text-2xl md:text-3xl font-semibold text-white">NOS Kaart</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold text-white">Lorum Ipsum</h3>
             </div>
             
             <div className="flex flex-col md:flex-row-reverse md:my-8">
@@ -56,11 +58,7 @@ export function Concept02() {
 
             <div className="carousel | flex gap-8 my-8 -mx-8 md:mx-0 overflow-y-hidden">
                 <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
+                <ImageConcept imageUrl={imageUrls[1]} />
             </div>
         </div>
     );

@@ -43,6 +43,9 @@ export function Navbar() {
                             <li className="my-3">
                                 <a href="#Concept-3" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 3</a>
                             </li>
+                            <li className="my-3">
+                                <a href="#Concept-4" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Concept 4</a>
+                            </li>
                         </ul>
                         <li className="my-3">
                             <a href="#Eindconcept" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Eindconcept</a>
