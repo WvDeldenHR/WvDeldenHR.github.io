@@ -2,10 +2,14 @@
 import { ImageConcept } from "../components/images/ImageConcept";
 
 // Images
-import ImageConcept01 from "./../assets/images/image_stock_phote_01.jpg"
+import ImageConcept01 from "./../assets/images/concept01/image_concept_01_home.png"
+import ImageConcept02 from "./../assets/images/concept01/image_concept_01_shorts.png"
+import ImageConcept03 from "./../assets/images/concept01/image_concept_01_discover.png"
 
 const imageUrls = [
     ImageConcept01,
+    ImageConcept02,
+    ImageConcept03,
 ]
 
 export function Concept01() {
@@ -21,7 +25,7 @@ export function Concept01() {
                 </span>
             </div>
             <div className="my-4 md:my-0">
-                <h3 className="text-2xl md:text-3xl font-semibold text-white">Lorum Ipsum</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold text-white">NPO Start + NPO Shorts</h3>
             </div>
             
             <div className="flex flex-col md:flex-row-reverse md:my-8">
@@ -37,7 +41,7 @@ export function Concept01() {
                 </div>
 
                 <div className="my-8 md:my-0 w-full">
-                    <div className="block rounded-2xl w-full h-[160px] md:h-full bg-white bg-cover bg-center bg-no-repeat" 
+                    <div className="block rounded-2xl w-full h-[160px] md:h-full bg-transparent bg-contain bg-center bg-no-repeat" 
                             style={{ backgroundImage: `url(${ImageConcept01})` }}></div>
                 </div>
             </div>
@@ -56,11 +60,11 @@ export function Concept01() {
 
             <div className="carousel | flex gap-8 my-8 -mx-8 md:mx-0 overflow-y-hidden">
                 <ImageConcept imageUrl={imageUrls[0]} />
+                <ImageConcept imageUrl={imageUrls[1]} />
+                <ImageConcept imageUrl={imageUrls[2]} />
+                {/* <ImageConcept imageUrl={imageUrls[0]} />
                 <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
+                <ImageConcept imageUrl={imageUrls[0]} /> */}
             </div>
         </div>
     );

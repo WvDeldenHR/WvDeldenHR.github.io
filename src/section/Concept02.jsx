@@ -37,7 +37,7 @@ export function Concept02() {
                 </div>
 
                 <div className="my-8 md:my-0 w-full">
-                    <div className="block rounded-2xl w-full h-[160px] md:h-full bg-white bg-cover bg-center bg-no-repeat" 
+                    <div className="block rounded-2xl w-full h-[160px] md:h-full bg-transparent bg-contain bg-center bg-no-repeat" 
                             style={{ backgroundImage: `url(${ImageConcept01})` }}></div>
                 </div>
             </div>
