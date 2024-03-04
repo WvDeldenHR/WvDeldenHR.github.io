@@ -52,8 +52,8 @@ export function Team() {
                         <h4 className="my-3 text-lg font-semibold text-white">Sena Babacan</h4>
                         <a href="/" className="border-[3px] border-primary rounded-full py-1 px-5 w-max text-base font-semibold text-primary">Front-end</a>
                         <p className="my-4 text-lg leading-6 font-light text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            Sena is een derde jaars student bij de opleiding Creative Media & Gametechnologies.
+                            Haar interesses liggen vooral bij het werken aan designs en de front-end van websites en applicaties. 
                         </p>
                     </div>
                 </div>
