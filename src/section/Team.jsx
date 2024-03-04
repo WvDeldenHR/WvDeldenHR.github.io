@@ -25,7 +25,7 @@ export function Team() {
             <div className="absolute -ml-8 md:ml-0 w-full h-[100px] top-[20%] bg-primary after:absolute after:block after:w-screen md:after:w-full after:h-full after:bg-primary"></div>
 
             <div className="relative flex gap-8 mb-6 -mx-8 overflow-y-hidden md:overflow-y-clip z-10">
-                <div className="flex flex-col ml-12 min-w-[50%] md:min-w-[unset]">
+                <div className="flex flex-col ml-12 min-w-[50%] md:min-w-[20%]">
                     <ImageTeam imageUrl={imageUrls[0]} />
                     <div className="flex flex-col">
                         <h4 className="my-3 text-lg font-semibold text-white">Issam Fissoune</h4>
@@ -35,7 +35,7 @@ export function Team() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col min-w-[50%] md:min-w-[unset]">
+                <div className="flex flex-col min-w-[50%] md:min-w-[20%]">
                     <ImageTeam  />
                     <div className="flex flex-col">
                         <h4 className="my-3 text-lg font-semibold text-white">Mike Degrassi</h4>
@@ -46,7 +46,7 @@ export function Team() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col min-w-[50%] md:min-w-[unset]">
+                <div className="flex flex-col min-w-[50%] md:min-w-[20%]">
                     <ImageTeam  />
                     <div className="flex flex-col">
                         <h4 className="my-3 text-lg font-semibold text-white">Sena Babacan</h4>
@@ -57,7 +57,7 @@ export function Team() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col mr-12 min-w-[50%] md:min-w-[unset]">
+                <div className="flex flex-col mr-12 min-w-[50%] md:min-w-[20%]">
                     <ImageTeam imageUrl={imageUrls[3]} />
                     <div className="flex flex-col">
                         <h4 className="my-3 text-lg font-semibold text-white">Wesley van Delden</h4>
