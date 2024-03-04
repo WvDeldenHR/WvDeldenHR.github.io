@@ -73,7 +73,7 @@ export function Hero() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <a href="/" className="transition-normal | flex items-center py-3 px-7 rounded-full text-lg font-semibold text-white bg-neutral-900 hover:opacity-80">
+                    <a href="#Eindconcept" className="transition-normal | flex items-center py-3 px-7 rounded-full text-lg font-semibold text-white bg-neutral-900 hover:opacity-80">
                         Bekijk Project
                         <IconArrowDown className="ml-2 w-6 h-6 fill-white" />
                     </a>
