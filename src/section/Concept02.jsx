@@ -2,10 +2,18 @@
 import { ImageConcept } from "../components/images/ImageConcept";
 
 // Images
-import ImageConcept01 from "./../assets/images/image_stock_phote_01.jpg"
+import ImageConcept01 from "./../assets/images/concept02/NOS-kaart-header.png"
+import ImageConcept02 from "./../assets/images/concept02/NOS-kaart-1.png"
+import ImageConcept03 from "./../assets/images/concept02/NOS-kaart-2.png"
+import ImageConcept04 from "./../assets/images/concept02/NOS-kaart-3.png"
+import ImageConcept05 from "./../assets/images/concept02/NOS-kaart-4.png"
 
 const imageUrls = [
     ImageConcept01,
+    ImageConcept02,
+    ImageConcept03,
+    ImageConcept04,
+    ImageConcept05,
 ]
 
 export function Concept02() {
@@ -60,12 +68,10 @@ export function Concept02() {
             </div>
 
             <div className="carousel | flex gap-8 my-8 -mx-8 md:mx-0 overflow-y-hidden">
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
+                <ImageConcept imageUrl={imageUrls[1]} />
+                <ImageConcept imageUrl={imageUrls[2]} />
+                <ImageConcept imageUrl={imageUrls[3]} />
+                <ImageConcept imageUrl={imageUrls[4]} />
             </div>
         </div>
     );
