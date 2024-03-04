@@ -2,10 +2,15 @@
 import { ImageConcept } from "../components/images/ImageConcept";
 
 // Images
-import ImageConcept01 from "./../assets/images/image_stock_phote_01.jpg"
+import ImageConcept01 from "./../assets/images/concept03/podcast01.png"
+import ImageConcept02 from "./../assets/images/concept03/podcast02.png"
+import ImageConcept03 from "./../assets/images/concept03/podcast03.png"
+
 
 const imageUrls = [
     ImageConcept01,
+    ImageConcept02,
+    ImageConcept03,
 ]
 
 export function Concept03() {
@@ -27,12 +32,11 @@ export function Concept03() {
             <div className="flex flex-col md:flex-row-reverse md:my-8">
                 <div className="my-4 md:ml-12 md:max-w-[50%]">
                     <p className="mb-4 text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        NPO Podcast, brengt de NPO en publiek samen bij één.
                     </p>
                     <p className="text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        Op NPO Podcast kunnen kijkers meer dan alleen luisteren naar een podcast. Met NPO Podcast hebben de kijkers ook een impact,
+                        en ook een stem. Breng kijkers als gast bij de podcasts om hun input te delen, en hun kant van het verhaal laten horen
                     </p>
                 </div>
 
@@ -45,22 +49,16 @@ export function Concept03() {
 
             <div className="my-4 md:my-16">
                 <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                    Download NPO Podcast en laat je stem horen
                 </p>
-                <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
-                </p>
+
             </div>
 
             <div className="carousel | flex gap-8 my-8 -mx-8 md:mx-0 overflow-y-hidden">
                 <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
-                <ImageConcept imageUrl={imageUrls[0]} />
+                <ImageConcept imageUrl={imageUrls[1]} />
+                <ImageConcept imageUrl={imageUrls[2]} />
+
             </div>
         </div>
     );
