@@ -66,10 +66,10 @@ export function Hero() {
 
             <div className="relative flex flex-col md:justify-center items-center gap-2 md:order-2 mt-8 mb-24 w-full h-full md:h-screen z-10">
                 <div className="hidden md:flex flex-col md:mb-12">
-                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white">Lorem ipsum dolor sit ame</h1>
-                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-80">Lorem ipsum dolor sit ame</h1>
-                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-60">Lorem ipsum dolor sit ame</h1>
-                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-40">Lorem ipsum dolor sit ame</h1>
+                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white">Medialab & NPO</h1>
+                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-80">Medialab & NPO</h1>
+                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-60">Medialab & NPO</h1>
+                    <h1 className="text-4xl font-['Quicksand'] font-bold text-white opacity-40">Medialab & NPO</h1>
                 </div>
 
                 <div className="flex flex-col gap-2">

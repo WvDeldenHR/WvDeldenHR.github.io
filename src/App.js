@@ -20,8 +20,8 @@ function App() {
             <div className="mx-auto px-8 md:max-w-[1200px]">
                 <div className="mt-32 md:-mt-32 mb-20 md:mb-32 md:pr-20 md:w-1/2">
                     <p className="text-lg text-center leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                    In opdracht van de NPO hebben wij ons gericht op twee belangrijke aspecten: het mogelijk maken van betekenisvolle ontmoetingen voor jongeren en het verrijken van de beleving in de uitingen van de NPO. 
+                    Met oog voor deze twee doelstellingen hebben we diverse concepten ontwikkeld om uiteindelijk het optimale product te realiseren.
                     </p>
                 </div>
 
