@@ -23,18 +23,19 @@ export function Concept04() {
                 </span>
             </div>
             <div className="my-4 md:my-0">
-                <h3 className="text-2xl md:text-3xl font-semibold text-white">Lorum Ipsum</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold text-white">NPO Comic Stories</h3>
             </div>
             
             <div className="flex flex-col md:flex-row-reverse md:my-8">
                 <div className="my-4 md:ml-12 md:max-w-[50%]">
                     <p className="mb-4 text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        De NPO Comic Stories is een nieuwe manier van het overbrengen van informatie aan de doelgroep.
+                        Door het gebruik van AI voor het generen van afbeeldigen in combinatie met bijvoorbeeld nieuws,
+                        kunnen nieuwsberichten zo worden overgebracht dat ze voor de doelgroep interessanter kunnen zijn om te lezen.
                     </p>
                     <p className="text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        Uit onderzoek met doelgroep kwam onder andere naar boven dat de doelgroep meer geintresseerd zou zijn
+                        in de onderwerpen van de NPO als deze zouden worden weergeven in (korte) video's of in comic stories.
                     </p>
                 </div>
 
@@ -47,12 +48,10 @@ export function Concept04() {
 
             <div className="my-4 md:my-16">
                 <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
-                </p>
-                <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                    Voor het ontwerp hebben we het kleuren palet en vormgeving van de NPO behouden. De layout hebben we zo opgesteld dat het 
+                    overzichtelijk en herkenbaar in gebruik is vergleken met andere (soortgelijke) apps. De gebruiker kan naast kiezen op basis
+                    van tags of aanbevelingen, ook de keuze maken voor het gebruiken van een verassings thema, waarbij de gebruiker een willekeurig 
+                    thema krijgt.
                 </p>
             </div>
 
