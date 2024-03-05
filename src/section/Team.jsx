@@ -3,7 +3,7 @@ import { ImageTeam } from "../components/images/ImageTeam";
 
 // Images
 import ImageTeam01 from "./../assets/images/team/image_issam.png";
-import ImageTeam02 from "./../assets/images/team/image_wesley.jpg";
+import ImageTeam02 from "./../assets/images/team/mike.png";
 import ImageTeam03 from "./../assets/images/team/sena.JPEG";
 import ImageTeam04 from "./../assets/images/team/image_wesley.jpg";
 
@@ -36,13 +36,12 @@ export function Team() {
                     </div>
                 </div>
                 <div className="flex flex-col min-w-[50%] md:min-w-[20%]">
-                    <ImageTeam  />
+                    <ImageTeam  imageUrl={imageUrls[1]}/>
                     <div className="flex flex-col">
                         <h4 className="my-3 text-lg font-semibold text-white">Mike Degrassi</h4>
                         <a href="/" className="border-[3px] border-primary rounded-full py-1 px-5 w-max text-base font-semibold text-primary">Back-end</a>
                         <p className="my-4 text-lg leading-6 font-light text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        Ik ben gefocust op de backend van de applicatie en wil zorgen voor een goed eindresultaat. Ik vind het belangrijk dat iedereen zijn mening eerlijk kan delen om een zo goed mogelijk product neer te zetten waar iedereen het mee een is.
                         </p>
                     </div>
                 </div>

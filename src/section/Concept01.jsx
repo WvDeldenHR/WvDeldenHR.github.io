@@ -31,12 +31,17 @@ export function Concept01() {
             <div className="flex flex-col md:flex-row-reverse md:my-8">
                 <div className="my-4 md:ml-12 md:max-w-[50%]">
                     <p className="mb-4 text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        Shorts, zoals de korte video's op platforms als YouTube, zijn uitermate effectief in het grijpen
+                        en vasthouden van de aandacht van kijkers, met name door hun bondige formaat, directe aanpak, en
+                        visuele aantrekkingskracht. Deze eigenschappen resoneren sterk met de snelle
+                        informatieconsumptie van vandaag, waardoor ze bijzonder aantrekkelijk zijn voor een
+                        jongerenpubliek.
                     </p>
                     <p className="text-lg leading-6 font-light text-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                        Door de kernaspecten van shorts—korte, directe content en visuele aantrekkelijkheid—te benutten,
+                        kunnen nieuwsorganisaties hun berichtgeving toegankelijker en memorabeler maken. Dit maakt het
+                        nieuws niet alleen boeiender voor de kijkers maar vergroot ook de kans op betrokkenheid bij met
+                        name het jongere publiek.
                     </p>
                 </div>
 
@@ -49,12 +54,11 @@ export function Concept01() {
 
             <div className="my-4 md:my-16">
                 <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
-                </p>
-                <p className="text-lg leading-6 font-light text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Augue eget arcu dictum varius duis. Sodales neque sodales ut etiam sit amet nisl.
+                    Hieronder wordt weergegeven hoe we van plan zijn deze aanpak te integreren in de bestaande NPO-app.
+                    Gebruikers kunnen content liken, erop reageren en deze extern delen. De interface is vertrouwd voor
+                    jongeren, wat de gebruikerservaring ten goede komt. Cruciaal zijn ook de diverse kanalen binnen de
+                    NPO. In het getoonde voorbeeld heeft de gebruiker de optie om NOS, een van de NPO-kanalen, toe te
+                    voegen aan zijn of haar voorkeuren.
                 </p>
             </div>
 
