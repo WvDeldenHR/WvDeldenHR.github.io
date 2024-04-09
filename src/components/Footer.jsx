@@ -5,6 +5,9 @@ export function Footer() {
                 <h2 className="text-3xl font-semibold text-dark">kcb</h2>
             </div>
             <div className="py-4">
+                <span className="text-sm font-light text-dark">Contact: 1016131@hr.nl - 0960572@hr.nl</span>
+            </div>
+            <div className="py-4">
                 <span className="text-sm font-light text-dark">2024 NPO | Alle rechten voorbehouden</span>
             </div>
         </div>

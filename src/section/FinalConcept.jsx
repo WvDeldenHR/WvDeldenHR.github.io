@@ -88,6 +88,20 @@ export function FinalConcept() {
                 <ImageConcept imageUrl={imageUrls[9]} />
                 <ImageConcept imageUrl={imageUrls[10]} />
             </div>
+
+            <div className="my-4 md:my-16">
+                <h4 className="text-2xl md:text-2xl font-semibold text-white">Feedback van NPO</h4>
+                <p className="text-lg leading-6 font-light text-white mt-2">
+                Het advies van de NPO benadrukt dat ons product beter past bij platforms zoals het Jeugdjournaal, 
+                omdat de NOS terughoudend is om met door AI gegenereerde content om te gaan, vanwege zorgen over de perceptie van nepnieuws.
+
+                In de volgende ontwikkelingsfase is het essentieel om de feedback te verwerken door de AI-generatie van afbeeldingen beter af te stemmen 
+                op de bijbehorende nieuwsartikelen. Bovendien moet er de mogelijkheid worden geboden aan gebruikers om het originele nieuwsartikel te lezen
+                 op de NPO-website. Verdere verbeteringen zijn nodig voor het verrassingsthema, waarbij gebruikers aanbevelingen krijgen voor artikelen die 
+                 buiten hun gebruikelijke interessegebied vallen. Een andere aanpak is om dit thema te introduceren met een kop als 'Dit is ook iets voor jou', 
+                 om de gebruikers op een andere manier aan te spreken.
+                </p>
+            </div>
         </div>
     );
 }
