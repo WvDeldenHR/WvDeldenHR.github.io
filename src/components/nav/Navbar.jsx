@@ -51,6 +51,9 @@ export function Navbar() {
                             <a href="#Eindconcept" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Eindconcept</a>
                         </li>
                         <li className="my-3">
+                            <a href="#Repository" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Github Repository</a>
+                        </li>
+                        <li className="my-3">
                             <a href="#Documenten" className="text-lg text-white font-['Quicksand'] font-semibold opacity-60">Documenten</a>
                         </li>
                     </ul>

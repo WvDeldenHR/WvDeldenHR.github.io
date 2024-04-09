@@ -3,6 +3,7 @@ import './App.css';
 // Sections
 import { Concepts } from './section/Concepts';
 import { Documents } from './section/Documents';
+import { GithubRepo } from './section/GithubRepo';
 import { FinalConcept } from './section/FinalConcept';
 import { Hero } from './section/Hero';
 import { Team } from './section/Team';
@@ -10,6 +11,7 @@ import { Team } from './section/Team';
 // Components
 import { Footer } from './components/Footer';
 import { Navbar } from './components/nav/Navbar';
+
 
 function App() {
     return (
@@ -28,6 +30,7 @@ function App() {
                 <Team />
                 <Concepts />
                 <FinalConcept />
+                <GithubRepo />
                 <Documents />
             </div>
 
